@@ -1,0 +1,89 @@
+
+
+
+.container__img
+{
+    /* margin: 50px 260px 95px 260px; */
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  space-evenly;
+    padding: 50px;
+    max-width: 1600px;
+
+}
+
+.popular__brands
+{
+    
+    /* display: flex; */
+    /* flex-flow: row wrap;
+    justify-content: space-between; */
+    font-size: 30px;
+    padding-top: 85px;
+}
+
+.logo
+{
+    padding: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+
+.background {
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
+
+
+
+.text__gavan_store
+{
+    padding-top: 20px;
+    width: 900px;
+    font-size:25px; ;
+    /* word-break: break-all; */
+    gap: 10 px;
+}
+
+.gavan_store {
+    font-size: 50px;
+
+
+}
+
+.descreption {
+    margin: 100px auto;
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__photo {
+    width: 440px;
+    height: 480px;
+}
+
+.blog__h
+{
+    font-size: 25px;
+}
+
+.blog__image__header
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 33px;
+}
+
+.blog__image__footer
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 90px;
+    margin-bottom: 200px;
+}
+

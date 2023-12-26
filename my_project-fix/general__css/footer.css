@@ -1,0 +1,54 @@
+
+.footer
+{   
+    padding-top: 0px;
+    background-color: #D6D3D7 ;
+    margin: 90px auto 0px auto;
+    width: 1920px;
+}
+
+.footer__first
+{  
+    display: flex;
+    padding-top:20px ;
+    list-style-type: none;
+    flex-direction: column;
+    gap: 30px;
+    text-align: left;
+    
+}
+
+.footer__second
+{   
+    padding-top:20px;
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__social
+{   display: flex;
+    gap: 50px;
+
+}
+
+.bar
+{
+ font: 20px "Pontano Sans Light";  
+ background-color:#D7C8BB;
+ border: none;
+ padding: 10px 150px;
+ text-align: center;
+}
+.bar:focus {
+    outline: none;
+   
+}

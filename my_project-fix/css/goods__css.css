@@ -1,0 +1,195 @@
+
+body{
+    border: 1px solid #D7C8BB;
+    background: #D7C8BB;
+}
+
+.container {
+    margin:0 auto;
+    max-width: 1600px; 
+    overflow: hidden;
+    
+}
+.container__second
+{
+    margin:0 auto;
+    max-width: 1600px; 
+    overflow: hidden;
+    display: flex;
+}
+
+
+.price{
+    font:
+      1rem 'Fira Sans',
+      sans-serif;
+  }
+ 
+   .filters
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .price__first
+  {
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+
+
+  .price__input {
+    margin: 0.4rem;
+  }
+
+
+  
+  .price__input{
+
+    accent-color: #4E3A33;
+    height:7px;   
+   }
+
+.price__input::-webkit-slider-thumb {
+    background: #ffffff;
+    height:15px;
+    accent-color: #4E3A33;
+    width:10px;
+}
+
+.filters__text__first
+{
+
+    padding-bottom:10px;
+} 
+
+
+.pol
+{
+     background-color: #D7C8BB;
+    color:#4E3A33;
+    border: none;
+    text-align: center;
+    outline: none;
+    
+}
+
+.filters__select
+{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.filters__select__second
+{
+   
+    width: 500px;
+
+}
+.pol__second
+{
+    width: 130px;
+}
+
+.block__size
+{
+    display: flex;
+    flex-wrap: wrap;
+    width:200px;
+    background-color: #D7C8BB;
+    color:#4E3A33
+}
+
+
+.block__size
+{
+    padding-bottom: 15px;
+}
+
+.block__size input[type=radio] {
+	display: none;
+}
+
+
+/* размерная сетка */
+ input[type="radio"] {
+    display: none;
+  }
+  
+  input[type="radio"] + label {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  input[type="radio"] + label:before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #4E3A33;
+    margin-right: 5px;
+  }
+  
+  input[type="radio"]:checked + label:before {
+    background-color: #4E3A33;
+  }
+
+  input[type="radio"]:hover{
+    background-color: #000000;
+  } 
+
+
+  
+/* ПОИСК */
+
+
+
+
+.search__filters
+{
+    padding-top: 30px;
+}
+
+
+
+.search__bar
+{
+ font: 20px "Pontano Sans Light";  
+ background-color: #D6D3D7;
+ border: none;
+ padding: 5px ;
+ text-align: center;
+ outline: none;
+ width: 200px;
+ border-radius: 10px; 
+}
+
+/* foto */
+
+
+
+
+.catalog__foto
+{
+    display: flex;
+    padding-top: 100px;
+    padding-left: 100px;
+    gap:100px;
+    flex-wrap: wrap;
+    padding-bottom: 150px;
+   
+}
+
+
+
+.text__foto
+{   padding-top: 10px;
+    list-style: none;
+    text-align: center;
+    padding-right: 17px; ;
+}
+
+

@@ -1,0 +1,118 @@
+.container {
+    margin:0 auto;
+    max-width: 1600px; 
+    overflow: hidden;
+    
+}
+
+.tit{
+padding-top: 50px ;
+
+}
+
+.title__basket
+{
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.content__basket{
+    padding-top: 100px;
+    gap:70px;
+    display: flex;
+    
+}
+.description
+{  
+    list-style-type: none;
+    color:#D6D3D7;
+}
+
+
+.man__shoes
+{
+    color: #4E3A33;
+    font-family: "Port Lligat Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}   
+.content__title
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.description__title
+{
+    color: #585858;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.order
+{
+    display: flex;
+    width: 391px;
+    height: 71px;
+
+}
+
+.btn__order
+{
+    width: 391px;
+    height: 71px;
+    color: #D7C8BB;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+    background-color:#4E3A33;
+}
+
+ /* .content
+{
+    margin: auto;
+    padding: 30px;
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+} */
+
+/* .popular__brands
+{   
+    display: flex;
+    background: #fff;
+    color: #3498db;
+    font-size: 36px;
+    line-height: 100px;
+    margin: 10px;
+    padding: 2%;
+    position: relative;
+    text-align: center;
+  }  */
+
+
+ .content {
+    margin: auto;
+    padding: 30px;
+    width: 100%;
+    /* max-width: 600px;
+    box-sizing: border-box; */
+  } 
+  .carousel__item {
+     /* background: #fff; */
+    color: #3498db;
+    font-size: 36px;
+    line-height: 100px;
+    /* margin: 10px;
+    padding: 2%; */
+    position: relative;
+    text-align: center;
+  }

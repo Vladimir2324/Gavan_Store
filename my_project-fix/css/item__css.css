@@ -1,0 +1,173 @@
+body{
+    border: 1px solid #D7C8BB;
+    background: #D7C8BB;
+}
+
+.container {
+    margin:0 auto;
+    max-width: 1600px; 
+    overflow: hidden;
+    
+}
+
+.container__second
+{
+    margin:0 auto;
+    max-width: 1600px; 
+    overflow: hidden;
+    display: flex;
+}
+
+.item__photo
+{
+   padding-top: 80px;
+}
+.img__con
+{
+    display: block;  
+}
+
+
+.title__des
+{
+    padding: 60px  170px;
+    text-align: center;
+}
+
+.nike
+{
+    padding-bottom: 20px;
+    font:  40px "Port Lligat Sans";
+}
+
+.des_shoes
+{
+    font:  26px "Port Lligat Sans";
+    padding-bottom: 20px;
+}
+
+
+.size__block
+{
+   padding: 0px  250px;
+}
+
+.size__first__string
+{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+
+.size__second__string
+{   padding-top: 35px;
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+
+
+.size__three__string
+{   padding-top: 35px;
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+
+.size
+{
+    list-style: none;
+    border: none;
+    width: 53px;
+    height: 37px;
+    border-radius: 10px;
+    background: #D9D9D9;
+    color: #4E3A33;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.price{
+
+    padding-top: 60px;
+    padding-left: 320px;
+}
+
+
+.price__shooes
+{
+font-size: 35px;
+font-style: normal;
+font-weight:600;
+line-height: normal;
+}
+
+.add__cart
+{
+    padding-top: 70px;
+    padding-left: 200px;
+}
+
+.add
+{
+    width: 391px;
+    height: 71px;
+    color: #D7C8BB;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: black;
+    border: none;
+}
+
+.add__cart_second
+{
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+.add__second
+{   
+    border: none;
+    width: 391px;
+    height: 71px;
+    color: #4E3A33;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #D9D9D9;
+}
+.tabl{
+    padding-top: 250px;
+    padding-left:200px;
+    border-collapse: collapse;
+    
+}
+
+td
+{   
+   padding: 16px 32px ;
+   border-top: 1px solid black;
+   display: flex;
+   gap: 300px;
+}
+
+
+.last__td
+{
+    border-bottom: 1px solid black;
+}
+
+
+.biggest__for__nike
+{
+    padding-left: 130px;
+    padding-top: 250px;
+}
+
+
+
